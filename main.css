@@ -9,7 +9,6 @@
     width: 375px;
     height: 812px;
     margin: 0 auto;
-    padding-top: 44px;
     overflow: hidden;
 }
 
@@ -24,6 +23,7 @@
     margin: 200px auto 0px;
     text-align: center;
     background-color: #D5F9EA;
+    border-radius: 10px;
 }
 .login-cover {
     content: "";
@@ -34,11 +34,17 @@
     right: 0;
     background: #fff;
 }
+
 .login input, .login-btn {
     width: 275px;
     height: 48px;
     margin-top: 42px;
     border: none;
+    border-radius: 4px;
+}
+
+.login input {
+    padding: 5px 25px;
 }
 
 .login .login-btn {
@@ -46,6 +52,8 @@
     color: #FFF;
     font-size: 20px;
     font-weight: bold;
+    letter-spacing: 10px;
+    text-indent: 10px;
 }
 
 .my-nav {
