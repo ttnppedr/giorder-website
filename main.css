@@ -88,6 +88,7 @@
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 10px;
+    text-indent: 10px;
 }
 
 .modal.fade .modal-dialog {
