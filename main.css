@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+    padding-top: 44px;
+    overflow: hidden;
+}
+
+.login {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 325px;
+    height: 221px;
+    margin: 200px auto 0px;
+    text-align: center;
+    background-color: #D5F9EA;
+}
+.login-cover {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+.login input, .login-btn {
+    width: 275px;
+    height: 48px;
+    margin-top: 42px;
+    border: none;
+}
+
+.login .login-btn {
+    background-color: #5ED0A0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.my-nav {
+    background-color: #5ED0A0;
+    text-align: center;
+}
+
+.my-nav .date {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.container {
+    width: 375px;
+    text-align: center;
+}
+
+.container button {
+    margin-top: 20px;
+    background-color: #FFF;
+    font-weight: bold;
+    font-size: 30px;
+    color: #5ED0A0;
+    border: 2px solid #5ED0A0;
+    border-radius: 4px;
+    height: 100px;
+    width: 325px;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.modal-footer button {
+    width: 275px;
+    background-color: #5ED0A0;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.modal.fade .modal-dialog {
+    width: 325px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-dialog {
+    margin: unset;
+}
+
+.modal-body p {
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: #4a4a4a;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn:hover {
+    color: #5ED0A0;
+}
